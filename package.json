@@ -1,0 +1,23 @@
+{
+  "name": "pt1",
+  "version": "1.0.0",
+  "description": "node game prototype 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Floris322/ngpt1.git"
+  },
+  "keywords": [
+    "node",
+    "game"
+  ],
+  "author": "Floris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floris322/ngpt1/issues"
+  },
+  "homepage": "https://github.com/Floris322/ngpt1#readme"
+}
