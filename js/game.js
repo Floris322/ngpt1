@@ -12,7 +12,7 @@ class Game {
         container.insertBefore(this.viewport, container.firstChild);
 
         this.context.font = '32px Arial';
-        this.context.fillText('Let\'s see what\'s up!',0,0);
+        this.context.fillText('Let\'s see what\'s up!',0,0, 400);
     }
 }
 
