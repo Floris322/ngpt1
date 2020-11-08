@@ -1,3 +1,4 @@
+console.log('game.js');
 let container = document.getElementById('container');
 
 class Game {
@@ -11,7 +12,7 @@ class Game {
         container.insertBefore(this.viewport, container.firstChild);
 
         this.context.font = '32px Arial';
-        this.context.fillText('Let\'s see what\'s up!');
+        this.context.fillText('Let\'s see what\'s up!',0,0);
     }
 }
 
