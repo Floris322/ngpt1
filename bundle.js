@@ -11,9 +11,8 @@ class Game {
         this.viewport.height = 600;
 
         container.insertBefore(this.viewport, container.firstChild);
-
-        this.context.font = '32px Arial';
-        this.context.fillText('Let\'s see what\'s up!',0,0, 400);
+        this.context.fillStyle = '#FF00FF';
+        this.context.fillRect(20, 20, 150, 100);
     }
 }
 
