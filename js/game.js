@@ -1,4 +1,5 @@
 const Box = require("./4boxes");
+const Position = require("./position");
 
 console.log('game.js');
 let container = document.getElementById('container');

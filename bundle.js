@@ -14,6 +14,7 @@ class Box {
 module.exports = Box;
 },{"./gameObject":3}],2:[function(require,module,exports){
 const Box = require("./4boxes");
+const Position = require("./position");
 
 console.log('game.js');
 let container = document.getElementById('container');
@@ -72,7 +73,7 @@ window.game = new Game();
 game.draw();
 
 module.exports = game;
-},{"./4boxes":1}],3:[function(require,module,exports){
+},{"./4boxes":1,"./position":4}],3:[function(require,module,exports){
 'use strict';
 
 class GameObject {
@@ -97,4 +98,13 @@ class GameObject {
 }
 
 module.exports = GameObject;
+},{}],4:[function(require,module,exports){
+class Position {
+    constructor(x,y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+
+module.exports = Position;
 },{}]},{},[2]);

@@ -5,4 +5,4 @@ class Position {
     }
 }
 
-modules.export = Position;
+module.exports = Position;
