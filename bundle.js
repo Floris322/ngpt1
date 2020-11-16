@@ -30,7 +30,7 @@ class Game {
         container.insertBefore(this.viewport, container.firstChild);
         
         //~~
-            console.log('v1');
+            console.log('v2');
         //~~
         this.addObject(Box.Make(new Position(20, 20), new Position(40, 40)));
 
@@ -64,7 +64,7 @@ class Game {
 
     draw() {
         this.state.objects.forEach(gameObject => {
-            gameObject.draw(ctx);
+            gameObject.draw(this.context);
         });
     }
 }
